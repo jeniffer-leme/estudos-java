@@ -49,6 +49,6 @@ public class Ponto3D {
 
     @Override
     public String toString() {
-        return "Ponto3D{" + "x=" + x + ", y=" + y + '}';
+        return "Ponto3D{" + "x=" + x + ", y=" + y + ", z=" + z + '}';
     }
 }
