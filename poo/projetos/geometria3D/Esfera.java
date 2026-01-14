@@ -20,8 +20,7 @@ public class Esfera extends ObjetoTridimensional implements GeometriaTridimensio
     @Override
     public double getVolume() {
         double raio = (getCanto1().getDistancia(getCanto2())) / 2;
-        double area = (4.0 / 3.0) * Math.PI * Math.pow(raio, 3);
-        
-        return area;
+        double volume = (4.0 / 3.0) * Math.PI * Math.pow(raio, 3);
+        return volume;
     }
 }
