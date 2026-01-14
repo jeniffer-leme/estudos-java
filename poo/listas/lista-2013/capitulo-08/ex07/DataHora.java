@@ -24,12 +24,9 @@ public class DataHora {
     }
     
     public boolean ehIgual(DataHora dataHora) {
-        if(this.getEstaData() == dataHora.getEstaData() && this.getEstaHora() == dataHora.getEstaHora()) { 
-            return true;
-        } else {
-            return false;
-        }
-    }
+        return this.getEstaData().ehIgual(dataHora.getEstaData()) &&
+           this.getEstaHora().ehIgual(dataHora.getEstaHora());
+}
 
     @Override
     public String toString() {
