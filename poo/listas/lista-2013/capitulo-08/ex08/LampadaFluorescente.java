@@ -1,7 +1,7 @@
 public class LampadaFluorescente extends Lampada{
     private int centimetros;
 
-    public LampadaFluorescente(boolean estadoLampada, int centimentros) {
+    public LampadaFluorescente(boolean estadoLampada, int centimetros) {
         super(estadoLampada);
         setCentimetros(centimetros);
     }
