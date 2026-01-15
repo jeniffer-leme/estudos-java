@@ -54,13 +54,13 @@ salarioFinal = salario - desconto;
 ---
 
 ## 🧠 Conceitos Trabalhados
--Classe abstrata  
--Herança  
--Polimorfismo  
--Encapsulamento  
--Sobrescrita de métodos  
--Validação de dados  
--Regras de negócio  
+- Classe abstrata  
+- Herança  
+- Polimorfismo  
+- Encapsulamento  
+- Sobrescrita de métodos  
+- Validação de dados  
+- Regras de negócio  
 
 ## 📌 Observação
 Exercício desenvolvido para fins educacionais, com foco na prática de modelagem de classes e manipulação de objetos em Java.
