@@ -32,8 +32,9 @@ Especialização da classe `Funcionario`.
 #### Regra de negócio:
 - O salário final é calculado somando o bônus ao salário base.
 
-```java```
+```java  
 salarioFinal = salario + bonus;
+```
 
 ---
 
@@ -46,6 +47,21 @@ Especialização da classe `Funcionario`.
 #### Regra de negócio:
 - O salário final é calculado subtraindo o desconto do salário base.
 
-```java
+```java  
 salarioFinal = salario - desconto;
+```
+
+---
+
+## 🧠 Conceitos Trabalhados
+-Classe abstrata  
+-Herança  
+-Polimorfismo  
+-Encapsulamento  
+-Sobrescrita de métodos  
+-Validação de dados  
+-Regras de negócio  
+
+## 📌 Observação
+Exercício desenvolvido para fins educacionais, com foco na prática de modelagem de classes e manipulação de objetos em Java.
 
